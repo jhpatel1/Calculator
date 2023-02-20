@@ -97,7 +97,7 @@
                </Button>
                <Button layoutX="82.0" layoutY="10.0" mnemonicParsing="false" onAction="#enter" prefHeight="99.0" prefWidth="72.0" text="E">
                   <font>
-                     <Font size="22.0" />
+                     <Font name="System Bold" size="22.0" />
                   </font>
                </Button>
                <Button layoutX="154.0" layoutY="10.0" mnemonicParsing="false" onAction="#add" prefHeight="99.0" prefWidth="72.0" text="+">
@@ -109,7 +109,7 @@
          </HBox>
          <Button layoutX="25.0" layoutY="20.0" mnemonicParsing="false" onAction="#changeSign" prefHeight="75.0" prefWidth="72.0" text="C">
             <font>
-               <Font size="22.0" />
+               <Font name="System Bold" size="22.0" />
             </font>
          </Button>
          <TextField fx:id="displayTextField" layoutX="142.0" layoutY="21.0" prefHeight="75.0" prefWidth="307.0">
@@ -117,6 +117,11 @@
                <Font name="System Bold" size="24.0" />
             </font>
          </TextField>
+         <Button layoutX="26.0" layoutY="590.0" mnemonicParsing="false" onAction="#clearArrayList" prefHeight="25.0" prefWidth="428.0" style="-fx-text-fill: green;" text="Clear">
+            <font>
+               <Font name="System Bold" size="14.0" />
+            </font>
+         </Button>
       </children>
    </AnchorPane>
 </VBox>

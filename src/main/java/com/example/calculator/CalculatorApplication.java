@@ -12,7 +12,7 @@ public class CalculatorApplication extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(CalculatorApplication.class.getResource("calculator-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 480, 640);
-        stage.setTitle("Hello!");
+        stage.setTitle("Calculator");
         stage.setScene(scene);
         stage.show();
     }
